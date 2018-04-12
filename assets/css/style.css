@@ -71,10 +71,21 @@ header button {
     border: 0px;
     box-shadow: none;
     outline: none;
+    cursor: pointer;
 
     -webkit-appearance: none;
     -moz-appearance: none;
     -ms-progress-appearance: none;
     -o-appearance: none;
     appearance: none;
+}
+
+header button svg {
+    widows: 16px;
+    height: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -8px 0 0 -8px;
+    fill: #BDA0CB;
 }
